@@ -1,0 +1,22 @@
+.circle {
+    width: 90px;
+    height: 86px;
+    line-height: 50px;
+    border-radius: 50%;
+    font-size: 16px;
+    color: black;
+    /* text-align: center; */
+    background-color: #e0e036;
+    text-align: center;
+
+    margin-left: 9px;
+    padding-left: 10px;
+    padding-top: 12px;
+    font-weight: bold;
+  }
+  .table{
+    padding-left: 20px;
+    
+    align-items: center;
+  }
+  

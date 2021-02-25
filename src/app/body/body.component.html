@@ -1,0 +1,83 @@
+
+
+<div class="row">
+  <div class="col-md-7">
+    <table class="table" >
+      <th><button style="font-size:15px" (click)="onClick()"> <i class="fa fa-plus"></i></button>
+      </th>
+     
+      <th style="padding-left: 20px;" >BasicInfo</th>
+      <th></th>
+      <th >Company</th>
+      <tr *ngFor="let item of dbList" >
+        <td><input type="checkbox"></td><td><div class="circle" [style.backgroundColor]="item.clr"> {{item.initial}}  </div></td>
+        <td>{{item.name}}<br>{{item.email}}</td><td style="padding-right: 80px;">{{item.comp}}</td></tr>
+        
+    </table>
+      <!-- <nav class="navbar navbar-expand-lg" style="background-color: rgb(255, 241, 241);">
+      <button style="font-size:15px" (click)="onClick()"> <i class="fa fa-plus"></i></button>
+  
+
+
+          <div class="col" style="padding-left: 45px;">BasicInfo</div>
+
+           <div class="col" style="padding-right: 150px;">Company</div>
+      </nav>
+      <div *ngFor="let item of dbList">
+      
+        <tr>
+       <td style="padding-left:12px;"><input type="checkbox"></td>
+         <td><div class="circle" [style.backgroundColor]="item.clr"> {{item.initial}}  </div></td>
+        <table>
+          <tr><td>{{item.name}}</td><td>{{item.comp}}</td></tr>
+          <tr><td>{{item.email}}</td></tr>
+          
+        </table>
+      </div>     -->
+  </div>
+  <div class="col-md-5" style="line-height: 60px;">
+    <div class="card" >
+      <div class="card-body" style="background-color: rgb(216, 211, 211);" >
+        <div style="padding-left: 140px;">
+        <div class="circle">MH</div>
+        <h6 class="card-subtitle mb-2" style="color:black; font-weight:bold">Mike Huston</h6>
+      </div>
+        <table style="width: 120%;">
+          <tr><td>FullName:</td><td>Mike Huston</td></tr>
+          <tr><td>Email:</td><td>mikehuston@live.com</td></tr>
+          <tr><td>Phone:</td><td>+(069)238-4587</td></tr>
+          <tr><td>Company:</td><td>No Information Provided</td></tr>
+          <tr><td>Address:</td><td>47,west shwerapara pirobag road mirpur,dhaka</td></tr>
+        </table>
+      
+      </div>
+    </div> 
+    <br>
+    
+    <!--notice-->
+    <div class="card">
+      <div class="row">
+        
+        <div class="col-md-2" style="padding-top: 20px;"><i class="fa fa-balance-scale" style="font-size:55px;color:red;"></i></div>
+        <div class="col"><b>Tax Evasion and Payout Notice</b>
+        <!-- <h6 style="padding-left: 100px; padding-top: 1px;">Date7.Mtd.2017</h6> -->
+        <div style="padding-top: 1px;">Date7.Mtd.2017</div></div>
+        <div class="col-md-2"></div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+    
+    
+  
+
+
+
+
+
+
